@@ -1,5 +1,7 @@
 <template>
-  <Button> {{ title }} </Button>
+  <Button>
+    <router-link to="/buyTree">{{ title }}</router-link>
+  </Button>
 </template>
 
 <script>

@@ -1,8 +1,8 @@
 
 <template>
-  <div class="start">
+  <div class="treeConfiguration">
     <h1>{{ msg }}</h1>
-    <Button title="Buy a tree"></Button>
+    <Button title="Go to checkout"></Button>
   </div>
 </template>
 
@@ -10,10 +10,10 @@
   import Button from '../components/Button';
 
   export default {
-    name: 'start',
+    name: 'treeConfiguration',
     data() {
       return {
-        msg: 'TODO list trees here',
+        msg: 'TODO configure your tree!',
       };
     },
     components: {
