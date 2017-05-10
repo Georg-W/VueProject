@@ -2,12 +2,12 @@
 <template>
   <div class="start">
     <h1>{{ msg }}</h1>
-    <Button title="Buy a tree"></Button>
+    <CustomButton title="Buy a tree" start=true></CustomButton>
   </div>
 </template>
 
 <script>
-  import Button from '../components/Button';
+  import CustomButton from '../components/CustomButton';
 
   export default {
     name: 'start',
@@ -17,7 +17,7 @@
       };
     },
     components: {
-      Button,
+      CustomButton,
     },
   };
 </script>

@@ -2,12 +2,12 @@
 <template>
   <div class="treeConfiguration">
     <h1>{{ msg }}</h1>
-    <Button title="Go to checkout"></Button>
+    <CustomButton title="Go to checkout" start=false></CustomButton>
   </div>
 </template>
 
 <script>
-  import Button from '../components/Button';
+  import CustomButton from '../components/CustomButton';
 
   export default {
     name: 'treeConfiguration',
@@ -17,7 +17,7 @@
       };
     },
     components: {
-      Button,
+      CustomButton,
     },
   };
 </script>
